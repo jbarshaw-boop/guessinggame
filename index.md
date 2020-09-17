@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# The Guessing Game Project
 
-You can use the [editor on GitHub](https://github.com/jbarshaw-boop/guessinggame/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This make file creates a script (./guessinggame.sh), a command-line bash script that asks you how many files are in the CWD. It will continue running until you guess the number correctly (or exit with Ctrl + c). Not to  worry though, it will tell you if the guess was too high or too low.
+This game will count hidden (dot) files as well as standard files, but not directories.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Installation:
+To install this bad boy, just grab the Makefile, throw it in any old directory, navigate to that directory, and run
+`make`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Since this is a bash (.sh) script, it will only work on Unix-like machines**
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+You can view the GitHub page at https://github.com/jbarshaw-boop/guessinggame
 
-- Bulleted
-- List
+The GitHub Pages URL is https://jbarshaw-boop.github.io/guessinggame/
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+The make file was run on 2020-09-17 at 11:48
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jbarshaw-boop/guessinggame/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The guessinggame.sh script has 23 lines
