@@ -11,5 +11,12 @@ To install this bad boy, just grab the Makefile, throw it in any old directory, 
 **Since this is a bash (.sh) script, it will only work on Unix-like machines**
 
 
-The make file was run on 2020-09-16 at 16:29
+You can view the GitHub page at https://github.com/jbarshaw-boop/guessinggame
+
+The GitHub Pages URL is https://jbarshaw-boop.github.io/guessinggame/
+
+
+
+The make file was run on 2020-09-17 at 11:48
+
 The guessinggame.sh script has 23 lines

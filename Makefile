@@ -39,6 +39,13 @@ make_script:
 	@echo '**Since this is a bash (.sh) script, it will only work on Unix-like machines**' >> README.md
 	@echo '' >> README.md
 	@echo '' >> README.md
+	@echo 'You can view the GitHub page at https://github.com/jbarshaw-boop/guessinggame' >> README.md
+	@echo '' >> README.md
+	@echo 'The GitHub Pages URL is https://jbarshaw-boop.github.io/guessinggame/' >> README.md
+	@echo '' >> README.md
+	@echo '' >> README.md
+	@echo '' >> README.md
 	@echo "The make file was run on $$(date +%F) at $$(date +%R)" >> README.md
+	@echo '' >> README.md
 	@echo "The guessinggame.sh script has $$(cat ./guessinggame.sh|wc -l) lines" >> README.md
 	@echo 'The README file is in place'
